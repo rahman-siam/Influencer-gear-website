@@ -66,3 +66,20 @@ document.body.appendChild(newElement);
 ```
 
 
+# Ans to the qn no: 03
+
+When an event happens on an element, it moves up from that element to its parent, then to the parent’s parent, and so on, up to the document.
+Order: Innermost element → outer parent elements → document.
+
+
+# Ans to the qn no: 04
+
+## Definition:
+Event Delegation is a technique where a single event listener is attached to a parent element to handle events on its child elements. Instead of adding separate listeners to each child, the parent listens and controls the events of all its children, making the code simpler and more efficient.
+
+## Importancy:
+1.Less code: One listener on the parent handles all children, no need for many separate listeners.
+2.Better performance: Fewer listeners use less memory and reduce browser load.
+3.Works for dynamic elements: New child elements added later are automatically handled.
+4.Clean & maintainable: Code stays simple, easier to manage when elements change.
+
