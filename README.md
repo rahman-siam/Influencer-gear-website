@@ -48,4 +48,21 @@ document.querySelectorAll(".icon");
 
 ```
 
+# Ans to the qn no: 02
+
+1.Create a new element using document.createElement().
+2.Add content to the element using textContent or innerHTML.
+3.Select the parent element where to insert.
+4.Insert the new element using appendChild().
+
+Example:
+
+```javascript
+const newElement = document.createElement("div"); 
+newElement.textContent = "New DOM!";
+newElement.setAttribute("id", "newDiv");  
+document.body.appendChild(newElement);     
+
+```
+
 
