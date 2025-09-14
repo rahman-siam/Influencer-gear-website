@@ -6,6 +6,20 @@ Used to find a single element using a specific ID. It returns only the element w
 
 Example:
 ```javascript
-<div id="box"></div>
+<span id="box"></span>
 document.getElementById("box");
+
+
+# Ans to the qn no: 01
+
+## 1. getElementById()
+
+Used to select an element by its ID.
+Always returns only one element (one with that ID).
+
+Example:
+```javascript
+<span id="box"></span>
+document.getElementById("box");
+
 
