@@ -83,3 +83,31 @@ Event Delegation is a technique where a single event listener is attached to a p
 3.Works for dynamic elements: New child elements added later are automatically handled.
 4.Clean & maintainable: Code stays simple, easier to manage when elements change.
 
+
+# Ans to the qn no: 05
+
+## preventDefault():
+
+This method is used to stop an element’s default behavior.
+
+Example:
+
+```javascript  
+document.querySelector("a").addEventListener("click", function(e) {
+  event.preventDefault();
+}); 
+
+```
+
+## stopPropagation():
+This method keeps the event confined only to the element where it occurred and does not allow it to propagate upwards to its parent elements. In other words, it stops Event Bubbling.
+
+Example:
+
+```javascript  
+const child = document.getElementById('child');
+child.addEventListener("click", function(event) {
+  event.stopPropagation();
+});
+
+```
