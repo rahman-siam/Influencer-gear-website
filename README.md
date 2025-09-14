@@ -5,7 +5,7 @@
 Used to find a single element using a specific ID. It returns only the element whose ID matches.
 
 Example:
-```html
+```javascript
 <div id="box"></div>
 document.getElementById("box");
 
