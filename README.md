@@ -7,4 +7,8 @@ Used to find a single element using a specific ID. It returns only the element w
 Example:
 ```html
 <div id="box"></div>
+<div id="lala"></div>
+<div id="lol"></div>
+<div id="boxa"></div>
+<div id="boxaddh"></div>
 
