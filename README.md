@@ -9,7 +9,7 @@ Example:
 <span id="box"></span>
 document.getElementById("box");
 
-
+---
 # Ans to the qn no: 01
 
 ## 1. getElementById()
