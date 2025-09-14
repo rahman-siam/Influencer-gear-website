@@ -9,17 +9,19 @@ Example:
 <span id="box"></span>
 document.getElementById("box");
 
----
-# Ans to the qn no: 02
+```
+
+# Ans to the qn no: 01
 
 ## 1. getElementById()
 
 Used to select an element by its ID.
-Always returns only one element (one with that ID).
+Always returns only one element (the one with that ID).
 
 Example:
 ```javascript
 <span id="box"></span>
 document.getElementById("box");
 
+```
 
