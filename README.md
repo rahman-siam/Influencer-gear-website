@@ -10,7 +10,7 @@ Example:
 document.getElementById("box");
 
 ---
-# Ans to the qn no: 01
+# Ans to the qn no: 02
 
 ## 1. getElementById()
 
