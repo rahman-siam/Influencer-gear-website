@@ -2,26 +2,50 @@
 
 ## 1. getElementById()
 
-Used to find a single element using a specific ID. It returns only the element whose ID matches.
-
-Example:
-```javascript
-<span id="box"></span>
-document.getElementById("box");
-
-```
-
-# Ans to the qn no: 01
-
-## 1. getElementById()
-
 Used to select an element by its ID.
 Always returns only one element (the one with that ID).
 
 Example:
 ```javascript
-<span id="box"></span>
-document.getElementById("box");
+<span id="icon"></span>
+document.getElementById("icon");
 
 ```
+
+## 2. getElementsByClassName()
+
+Used to select multiple elements by their class name.Returns an HTMLCollection of all matching elements.
+
+Example:
+```javascript
+<span class="icon"></span>
+<span class="icon"></span>
+document.getElemenstByClassName("icon");
+
+```
+
+## 3. querySelector()
+
+Used to find the first element that matches a given selector. It returns the first matching element.
+
+Example:
+```javascript
+<span class="icon"></span>
+<span class="icon"></span>
+document.querySelector(".icon");
+
+```
+
+## 4. querySelectorAll()
+
+ Returns a NodeList of all elements that match the given selector.
+
+Example:
+```javascript
+<span class="icon"></span>
+<span class="icon"></span>
+document.querySelectorAll(".icon");
+
+```
+
 
